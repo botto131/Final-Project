@@ -1,0 +1,16 @@
+spring: 
+   datasource:
+      username: authors
+      password: authors
+      url: jdbc:mysql://localhost:3306/authors
+    
+   jpa:
+      hibernate:
+         ddl-auto: create
+      show-sql: true
+      defer-datasource-initialization: true
+      
+   sql:
+      init:
+         mode: always 
+           
